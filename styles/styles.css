@@ -1,0 +1,239 @@
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Header
+        3.2 Testimonial
+        3.3 Support
+        3.4 Faq
+        3.5 Footer
+////////////////////////////////////////////////////////////////////////*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*////////////////////////
+    1. Global Styles
+    color: #899CA0; (grijs)
+    color: #1C2B32; (donkergroen)
+ */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*////////////////////////*/
+
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+h1 {
+    color: #1C2B32;
+    font-size: 150px;
+    font-weight: bold;
+}
+
+h1, p, form {
+    text-align: center;
+}
+
+
+/*////////////////////////
+    3. Areas
+////////////////////////*/
+
+
+/*///////////// 3.1 Header /////////////*/
+header {
+
+}
+
+.div-header {
+    max-width: 1000px;
+    margin-left: 500px;
+    padding-top: 10px;
+    padding-bottom: 250px;
+    background-image: url("../assets/images/mountains.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom 0 right 0;
+}
+
+#jouw-domein {
+    border-radius: 20px 0 0 20px;
+    margin-right: -1px;
+    color: #1C2B32;
+    height: 60px;
+    width: 350px;
+    position: relative;
+}
+
+#jouw-domein::placeholder {
+    position: absolute;
+    top: 17px;
+    left: 20px;
+    color: #1C2B32;
+}
+
+#submit-button {
+    border-radius: 0 20px 20px 0;
+    margin-left: -5px;
+    background-color: #1C2B32;
+    color: white;
+    height: 60px;
+    width: 220px;
+}
+
+/*///////////// 3.2 Testimonial /////////////*/
+.client-one {
+    width: 500px;
+    height: 200px;
+    max-width: 1000px;
+    background: white;
+    box-shadow: 0 8px 24px;
+    border-radius: 10px;
+    padding-right: 900px;
+    padding-left: 75px;
+    margin: 30px;
+    text-align: center;
+    position: relative;
+}
+
+#quote {
+    position: absolute;
+    top: 25px;
+    left: 65px;
+}
+
+.client-one-review {
+    text-align: left;
+    width: 900px;
+    padding: 28px;
+}
+
+.photo-Doe {
+    width: 400px;
+    font-style: italic;
+    display: flex;
+    vertical-align: middle;
+}
+
+#Doe , #John {
+    width: 44px;
+    height: 44px;
+    border-radius: 35px;
+}
+
+.client-two {
+    position: relative;
+    width: 500px;
+    height: 200px;
+    max-width: 1000px;
+    background: white;
+    box-shadow: 0 8px 24px;
+    border-radius: 10px;
+    padding-right: 900px;
+    padding-left: 75px;
+    margin: 30px;
+    margin-top: 100px;
+}
+
+#quote-2 {
+    position: absolute;
+    top: 25px;
+    left: 65px;
+}
+
+.client-two-review {
+    text-align: left;
+    width: 900px;
+    padding: 30px;
+}
+
+.photo-John {
+        width: 400px;
+    font-style: italic;
+    display: flex;
+    vertical-align: middle;
+}
+
+/*///////////// 3.3 Support /////////////*/
+main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.review {
+    color: #1C2B32;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact {
+    color: #1C2B32;
+    font-weight: bold;
+    text-align: center;
+}
+
+.team-link {
+    color: #899CA0;
+    text-decoration: underline;
+}
+
+.team-link:hover {
+    text-decoration: #899CA0;
+}
+
+.contact p {
+    font-size: 10px;
+    text-align: left;
+    padding: 10px;
+}
+
+.submit-contact {
+    border-radius: 25px;
+    height: 45px;
+    width: 150px;
+    background: #1C2B32;
+    color: white;
+    box-shadow: 2px 2px 3px;
+    margin-right: 825px;
+    border: #1C2B32;
+    font-size: 13px;
+}
+
+.Questions {
+    color: #1C2B32;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.Questions-detail {
+    color: #1C2B32;
+    padding: 10px;
+    pointer-events: auto;
+}
+
+.answer {
+    color: white;
+    background: #899CA9;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+
+/*///////////// 3.4 Faq /////////////*/
+
+
+/*///////////// 3.5 Footer /////////////*/
+.footer {
+    background: #1C2B32;
+    color: white;
+    text-align: center;
+    height: 50px;
+
+}
